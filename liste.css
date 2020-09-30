@@ -2,20 +2,13 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-  
 }
+
 body{
     background-color: rgb(247, 243, 243);
 }
-header
-{
 
-   
-   
-}
-nav
-{
-    
+nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -26,19 +19,19 @@ nav
     position: fixed;
     top: 0;
     width: 100%;
-    
 }
+
 .margin{
     margin-top: 100px;
-    
 }
+
 .logo{
     justify-content: flex-start;
     margin-left: 20px; 
     align-items: center;
     justify-content: center;
-       
 }
+
 .logo a{
     margin-left: 0;
     padding-left: 0;
@@ -50,8 +43,8 @@ nav
 
 .logo :hover{
     transform: scale(1.03);
-    
 }
+
 .navigation a{
     justify-content: flex-end;
     padding: 7px;
@@ -68,22 +61,19 @@ nav a{
     text-decoration: none;
     color: white;
     align-items: center;
-    
-   
 }
 
 .navigation a:hover{
     color: rgb(0, 162, 255);
     transition-duration: 1s;
     background-color: rgb(250, 215, 219);
-    
-    
 }
+
 h1{
     text-align: center;
     margin: 20px;
-    
 }
+
 h1 span{
 background-color: rgb(0, 162, 255) ;
     margin: 40px 0 50px 0;
@@ -94,35 +84,27 @@ background-color: rgb(0, 162, 255) ;
     font-size: 25px;
 }
 
-
-
-   
 #text{
     width: 90%;
     text-align: center;
 }
    
-
-
 .couple{
     float: left;
     margin:7px 10px 50px 100px;
 }
+
 #presentationtext{
     font-size: 1.5em;
-   
-}
-h2{
-   
-    text-align: center;
-}
+   }
+
 h2 {
-    
     font-size: 25px;
     clear: both;
     margin: 20px;
-    
+    text-align: center;
 }
+
 h2 span{
     background-color: rgb(0, 162, 255);
     border: 2px solid rgb(250, 215, 219);
@@ -130,9 +112,6 @@ h2 span{
     padding:10px;
     box-shadow: 3px 3px 3px black;
     margin: 20px;
-    
-    
-
 }
 
 .tablecentre{
@@ -140,21 +119,24 @@ h2 span{
     display: flex;
     width: 100%;
 }
+
 table
 {
    border: 1px solid black;
    padding: 10px;
-   
 }
+
 th{
    font-size: 1.5em;
    padding: 10px;
 }
+
 td {
     text-align: center;
     font-size: 1.3em;
     padding: 3px;
 }
+
 td a{
     text-decoration: none;
     background-color: grey;
@@ -163,38 +145,47 @@ td a{
     color: rgb(235, 235, 115);
     margin: 10px;font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 td :hover{
     color: grey;
     background-color:  rgb(235, 235, 115);
     transition-duration: 1s;
-
 }
+
 table img{
     height: 100px;
     width: 100px;
 }
+
 thead{
     font-size: 1.4em;
 }
+
 table{
     background-color: rgb(250, 215, 219);
 }
+
 .urgent td{
     background-color: rgb(241, 110, 110);
 }
+
 .achete td{
     background-color: rgb(176, 240, 176);
 }
+
 .selectionne td {
     background-color: rgb(55, 180, 55);
 }
+
 .normal td {
     background-color:rgb(56, 189, 171) ;
 }
+
 .fmulaire{
     text-align: center;
     margin: 20px 0 20px 0;
 }
+
 
 .fmulaire a{
     background-color: rgb(255, 238, 0);
@@ -205,10 +196,10 @@ table{
     text-decoration: none;
     transition-duration: 0.6s;
 }
+
 .fmulaire :hover{
     background-color: grey;
     color: rgb(255, 238, 0);
-    
 }
 
 footer{
@@ -216,17 +207,18 @@ footer{
     height: 60px;
     margin-top: 50px;
 }
+
 adress{
     font-size: 19px;
     text-align: center;
 }
+
 .formulaire{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
     height: 400px;
+    font-size: 1.5em;
 }
-#formulaire{
 
-}
